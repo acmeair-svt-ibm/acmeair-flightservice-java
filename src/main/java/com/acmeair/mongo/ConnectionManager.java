@@ -51,7 +51,7 @@ public class ConnectionManager implements MongoConstants {
   protected MongoDatabase db;
     
   @Inject 
-  @ConfigProperty(name = "MONGO_HOST", defaultValue = "bphmongo.rtp.raleigh.ibm.com") 
+  @ConfigProperty(name = "MONGO_HOST", defaultValue = "localhost") 
   private String mongoHost;
   
   @Inject 

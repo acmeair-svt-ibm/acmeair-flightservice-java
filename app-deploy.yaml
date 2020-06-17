@@ -16,7 +16,7 @@ spec:
   - name: PASSWORD
     value: password
   - name: MONGO_HOST
-    value: bphmongo.rtp.raleigh.ibm.com
+    value: bphmongof.rtp.raleigh.ibm.com
   - name: SECURE_SERVICE_CALLS
     value: 'true'
   service:
