@@ -18,7 +18,7 @@ spec:
   - name: MONGO_HOST
     value: bphmongof.rtp.raleigh.ibm.com
   - name: SECURE_SERVICE_CALLS
-    value: 'true'
+    value: 'false'
   service:
     type: NodePort
     port: 9080
