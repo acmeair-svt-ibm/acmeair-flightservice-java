@@ -5,7 +5,7 @@ metadata:
     image.opencontainers.org/title: stackaa-flight
     stack.appsody.dev/id: java-openliberty
   name: stackaa-flight
-  namespace: kabanero
+  namespace: acmeair
 spec:
   applicationImage: stackaa-flight 
   createKnativeService: false
@@ -16,7 +16,7 @@ spec:
   - name: PASSWORD
     value: password
   - name: MONGO_HOST
-    value: bphmongof.rtp.raleigh.ibm.com
+    value: acmeairmongovm.rtp.raleigh.ibm.com
   - name: SECURE_SERVICE_CALLS
     value: 'false'
   service:
