@@ -85,8 +85,8 @@ spec:
     annotations:
       prometheus.io/scrape: "true"
     port: 9080
-    type: NodePort
     provides:
       category: openapi
       context: /flight
+    type: NodePort
   version: 1.0.0
