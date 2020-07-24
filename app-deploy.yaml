@@ -83,7 +83,8 @@ spec:
       port: 9080
     initialDelaySeconds: 60
     periodSeconds: 2
-    timeoutSeconds: 60
+  expose: true
+  stack: java-openliberty
   service:
     annotations:
       prometheus.io/scrape: "true"
