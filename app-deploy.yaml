@@ -58,7 +58,7 @@ spec:
   createKnativeService: false
   expose: true
   route:
-    host: aa-acmeair.apps.acme42.cp.fyre.ibm.com
+    host: aa-acmeair.apps.acmeair45.cp.fyre.ibm.com
     path: "/flight"
   env:
     - name: USERNAME
@@ -83,8 +83,7 @@ spec:
       port: 9080
     initialDelaySeconds: 60
     periodSeconds: 2
-  expose: true
-  stack: java-openliberty
+    timeoutSeconds: 1
   service:
     annotations:
       prometheus.io/scrape: "true"
