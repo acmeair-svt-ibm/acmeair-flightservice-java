@@ -83,6 +83,7 @@ spec:
       port: 9080
     initialDelaySeconds: 60
     periodSeconds: 2
+    timeoutSeconds: 1
   service:
     annotations:
       prometheus.io/scrape: "true"
